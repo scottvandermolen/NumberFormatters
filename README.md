@@ -15,6 +15,8 @@ The file NumberFormatters.test.asp is not required in order to use the library a
 ## Usage
 
 ```vbscript
+<!--#include file="NumberFormatters.lib.asp"-->
+<%
 dim cardinal
 cardinal = 1234567890
 
@@ -33,6 +35,7 @@ spellout = FormatSpellout(cardinal)
 ' Spellout an ordinal number.
 dim spellout-ordinal
 spellout-ordinal = FormatSpelloutOrdinal(cardinal)
+%>
 ```
 
 ## Contributing
